@@ -1,0 +1,26 @@
+{
+  "name": "graduationconsumer",
+  "version": "1.0.0",
+  "description": "SQS consumer app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prussian94/SQS-consumer.git"
+  },
+  "author": "Hakan APOHAN",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/prussian94/SQS-consumer/issues"
+  },
+  "homepage": "https://github.com/prussian94/SQS-consumer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.1.0",
+    "sqs-consumer": "^7.0.3"
+  }
+}
